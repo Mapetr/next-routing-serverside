@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf6c443-2bc4-48a0-ba9c-08f3b441011b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/next-routing-serverside.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(serverside)/client/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(serverside)/server/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(routing)/error/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(routing)/router/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(serverside)/actions/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(serverside)/actions/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(serverside)/isr/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(routing)/posts/[...slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(routing)/posts/[...slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(routing)/products/[productId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(routing)/products/[productId]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(routing)/static/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(routing)/static/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +47,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ayai/Downloads/Czech/cz.dic",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ayai/Downloads/next-routing-serverside/app/(serverside)",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "ts.external.directory.path": "C:\\Users\\ayai\\Downloads\\next-routing-serverside\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ayai\Downloads\next-routing-serverside\app\(serverside)" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ayai\Downloads\next-routing-serverside\app" />
+      <recent name="C:\Users\ayai\Downloads\next-routing-serverside" />
       <recent name="$PROJECT_DIR$/app/(routing)" />
     </key>
   </component>
@@ -85,7 +88,9 @@
       <workItem from="1743450259479" duration="45000" />
       <workItem from="1743450310632" duration="3179000" />
       <workItem from="1743455688663" duration="6543000" />
-      <workItem from="1743497533692" duration="2499000" />
+      <workItem from="1743497533692" duration="3341000" />
+      <workItem from="1743511199555" duration="1997000" />
+      <workItem from="1743513592962" duration="1476000" />
     </task>
     <servers />
   </component>
