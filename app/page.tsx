@@ -18,7 +18,13 @@ export default function Home() {
 			<span className={"text-lg font-bold"}>Rendering</span>
 			<ul>
 				<li>
-					<Link href={"/static"}>Statická stránka</Link>
+					<Link href={"/server"}>SSR</Link>
+				</li>
+				<li>
+					<Link href={"/client"}>Client</Link>
+				</li>
+				<li>
+					<Link href={"/cache"}>Cache</Link>
 				</li>
 			</ul>
 		</main>

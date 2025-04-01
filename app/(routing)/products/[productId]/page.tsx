@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 interface ProductPageProps {
 	params: Promise<{
 		productId: string;
@@ -17,7 +15,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
 			<h1>Produkt: {productId}</h1>
 			<p>
 			</p>
-			<Link href={"/"}>Zpět</Link>
 		</main>
 	);
 }

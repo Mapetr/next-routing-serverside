@@ -1,6 +1,5 @@
 import liveSlugReaction from "@/public/slug.webp";
 import Image from "next/image";
-import Link from "next/link";
 
 interface PostsPageProps {
 	params: Promise<{
@@ -36,7 +35,6 @@ export default async function PostsPage({params}: PostsPageProps) {
 					</div>
 				))}
 			</section>
-			<Link href={"/"}>Zpět</Link>
 		</main>
 	);
 }

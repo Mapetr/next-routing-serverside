@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import cat from "@/public/cat1.png";
 
@@ -15,7 +14,6 @@ export default function Page() {
 				height={"250"}
 				alt={"serious cat"}
 			/>
-			<Link href={"/"}>Zpět</Link>
 		</main>
 	)
 }
